@@ -1,0 +1,198 @@
+﻿img{
+
+    position: relative;
+    height: auto;
+    width: 750px;
+    max-width: 100%;
+}
+
+.dialogue1{
+    position: relative;
+    bottom: 120px;
+    font-weight: bolder;
+    color: black;
+    word-spacing: 0.2em;
+    font-size: 1.5625rem;
+    max-width: 1000px;
+}
+.dialogue2{
+    position: relative;
+    font-weight: bolder;
+    font-family: calibri;
+    color: black;
+    word-spacing: 0.2em;
+    font-size: 1.5625rem;
+    max-width: 1000px;
+}
+.indent{
+    position: relative;
+    font-weight: bolder;
+    font-family: calibri;
+    color: black;
+    word-spacing: 0.2em;
+    font-size: 1.5625rem;
+    max-width: 1000px;
+}
+.kerala{
+    font-family: verdana;
+    font-size: 1.25rem;
+    font-weight:bolder;
+    color: black;
+    position: relative;
+    top:20px;
+    left: 520px;
+   
+}
+.details1{
+    font-family: verdana;
+    position: relative;
+    left: 445px;
+}
+.karnataka{
+    font-family: verdana;
+    font-size: 1.25rem;
+    font-weight:bolder;
+    color: black;
+    position: relative;
+    bottom:120px;
+    left:780px;
+}
+.details2{
+    font-family: verdana;
+    position: relative;
+    bottom: 140px;
+    left:765px;
+}
+.enquiry1{
+    position: relative;
+    top: 35px;
+    font-family: verdana;
+    font-size: 0.9375rem;
+}
+.enquiry2{
+    position: relative;
+   top:20px;
+    font-family: verdana;
+    font-size: 1.125rem;
+}
+.enquiry3{
+    position: relative;
+    top:18px;
+    font-family: verdana;
+    font-size: 1.125rem;
+}
+.enquiry4{
+    position: relative;
+    top:5px;
+    font-family: verdana;
+    font-size: 0.95rem;
+}
+
+@media only screen and (max-width:450px){
+    .dialogue1{
+        position: relative;
+        bottom:50px;
+    }
+}
+@media only screen and (max-width:1400px) and (min-width:1000px){
+    .kerala{
+      position: relative;
+      left: 300px;
+}
+    .details1{
+      position: relative;
+      left: 230px;
+    }
+}
+
+    @media only screen and (max-width:1000px) and (min-width:700px)
+    {
+    .kerala{
+      position: relative;
+      left: 200px;
+}
+    .details1{
+      position: relative;
+      left: 130px;
+}
+    
+    .karnataka{
+      position: relative;
+      left: 500px;
+}
+    .details2{
+      position: relative;
+      left: 480px;
+    }
+    }   
+    
+    @media only screen and (max-width:700px) and (min-width:500px)
+    {
+    .kerala{
+      position: relative;
+      left: 225px;
+}
+    .details1{
+      position: relative;
+      left: 155px;
+}
+    
+    .karnataka{
+      position: relative;
+      top: 15px;
+      left: 170px;
+}
+    .details2{
+      position: relative;
+      top: 0px;
+      left: 150px;
+    }
+    }
+    @media only screen and (max-width:500px) and (min-width:400px)
+    {
+    .kerala{
+      position: relative;
+      left: 150px;
+}
+    .details1{
+      position: relative;
+      left: 90px;
+}
+    
+    .karnataka{
+      position: relative;
+      top: 15px;
+      left: 100px;
+}
+    .details2{
+      position: relative;
+      top: 0px;
+      left: 100px;
+    }
+    }
+    @media only screen and (max-width:400px) and (min-width:300px)
+    {
+    .kerala{
+      position: relative;
+      left: 100px;
+}
+    .details1{
+      position: relative;
+      left: 40px;
+}
+    
+    .karnataka{
+      position: relative;
+      top: 15px;
+      left: 50px;
+}
+    .details2{
+      position: relative;
+      top: 0px;
+      left: 40px;
+    }
+    }
+    body{
+        margin: 30px;
+        overflow-x:hidden;
+    }
